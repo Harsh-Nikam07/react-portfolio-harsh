@@ -1,0 +1,42 @@
+
+
+
+.heroParent{
+    width: 50%;
+    height: 100vh;
+    
+}
+
+.heroSubSection{
+    width: 100%;
+}
+
+
+
+
+
+@media screen and (max-width: 450px) {
+    .heroParent{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .heroSubSection{
+        
+        width: 80%;
+    }
+
+
+    .mainHeading span{
+        font-size: 20px;
+    }
+
+
+
+}
+
+
+
