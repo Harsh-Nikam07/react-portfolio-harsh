@@ -26,7 +26,7 @@ const About = () => {
         </div>
 
         <div className='AboutImg w-full md:w-1/3 flex justify-center items-center overflow-hidden rounded-lg'>
-            <img className='w-56 rounded-lg hover:scale-125 overflow-hidden transition-all' src={harshDevAboutImg} alt="" />
+            <img className='w-56 rounded-lg hover:scale-105 overflow-hidden transition-all' src={harshDevAboutImg} alt="" />
         </div>
 
 

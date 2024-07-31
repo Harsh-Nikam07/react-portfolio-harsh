@@ -47,12 +47,12 @@ requestAnimationFrame(raf)
       <Spline scene="https://prod.spline.design/JsWhLfbg8tZPLYfz/scene.splinecode" />
       </div>
       <AnimatedCursor
-      innerSize={7}
-      outerSize={15}
+      innerSize={12}
+      outerSize={30}
       color='192,0,252 '
       outerAlpha={0.20}
       innerScale={0.8}
-      outerScale={4}
+      outerScale={3}
       clickables={[
         'a',
         'input[type="text"]',
@@ -83,10 +83,17 @@ requestAnimationFrame(raf)
       
       {/* <DevProject1 />
       <UxProject1 /> */}
-      <Separator/>
-      <Contact />
+      {/* <Separator/>
+      <Contact /> */}
     </div>
   );
 }
 
 export default App;
+
+
+
+//  git add .
+//  git commit -am "third commit" 
+//  git branch -M main
+//  git push -u origin main

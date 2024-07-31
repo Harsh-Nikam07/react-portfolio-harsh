@@ -10,7 +10,7 @@ const DevProjects = () => {
 
     <div className='flex justify-ceter items-ceter flex-row flex-wrap gap-8'>
        <motion.div 
-      className='w-full h-fit flex justify-between items-center flex-row flex-wrap gap-5 bg-white rounded-3xl p-5'
+      className='w-full h-fit flex justify-between items-center flex-row flex-wrap gap-5 bg-white rounded-3xl shadow-lg p-5'
       initial="rest"
       whileHover="hover"
       animate="rest"
@@ -18,7 +18,7 @@ const DevProjects = () => {
       <div className='ProdDetails w-full md:w-1/2 flex justify-start items-start flex-col gap-4'>
         <div className='ProdTitle flex justify-center items-center flex-row gap-2'>
           <span className='text-xl font-medium'>Personal Portfolio Website</span>
-          <a href="#" >
+          <a href="https://harshnikam-harsh-nikam07s-projects.vercel.app/" target='_blank' >
             <span className='text-xl font-medium'><IoIosLink /></span>
           </a>
         </div>
@@ -64,7 +64,7 @@ const DevProjects = () => {
 
 
     <motion.div 
-      className='w-full h-fit flex justify-between items-center flex-row flex-wrap gap-5 bg-white rounded-3xl p-5'
+      className='w-full h-fit flex justify-between items-center flex-row flex-wrap gap-5 bg-white rounded-3xl p-5 shadow-lg'
       initial="rest"
       whileHover="hover"
       animate="rest"
@@ -119,7 +119,7 @@ const DevProjects = () => {
     </motion.div>
 
     <motion.div 
-      className='w-full h-fit flex justify-between items-center flex-row flex-wrap gap-5 bg-white rounded-3xl p-5'
+      className='w-full h-fit flex justify-between items-center flex-row flex-wrap gap-5 bg-white rounded-3xl p-5 shadow-lg'
       initial="rest"
       whileHover="hover"
       animate="rest"

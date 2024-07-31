@@ -14,7 +14,7 @@ const Exp = () => {
           </div>
 
           <div className='expParent w-full h-fit flex justify-center items-center flex-wrap flex-col gap-12'>
-            <div className='w-full md:w-3/5 p-3 flex justify-center items-center flex-col flex-grow gap-0 bg-white rounded-lg'>
+            <div className='w-full md:w-3/5 p-3 flex justify-center items-center flex-col flex-grow gap-0 bg-white rounded-lg shadow-lg'>
               <div className='w-full text-lg font-medium p-2'>
                 <span className=''>Front end Web Developer</span>
               </div>
@@ -62,7 +62,7 @@ const Exp = () => {
               </div>
             </div>
 
-            <div className='w-full md:w-3/5 p-3 flex justify-center items-center flex-col flex-grow gap-0 bg-white rounded-lg'>
+            <div className='w-full md:w-3/5 p-3 flex justify-center items-center flex-col flex-grow gap-0 bg-white rounded-lg shadow-lg'>
               <div className='w-full text-lg font-medium p-2'>
                 <span className=''>Front end developer Intern</span>
               </div>
