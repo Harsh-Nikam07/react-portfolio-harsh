@@ -39,12 +39,12 @@ requestAnimationFrame(raf)
     
     <div className='relative overflow-x-hidden h-full w-full text-black selection:bg-purple-500 selection:text-white  ' >
       <div className='fixed top-0 left-0 h-full w-full z-[-1]'>
-      {/* <div className="absolute top-0 -z-10 h-full w-full bg-white"><div className="absolute bottom-auto left-auto right-0 top-0 h-[500px] w-[500px] -translate-x-[30%] translate-y-[20%] rounded-full bg-[rgba(173,109,244,0.5)] opacity-50 blur-[80px]"></div></div> */}
+      <div className="absolute top-0 -z-10 h-full w-full bg-white"><div className="absolute bottom-auto left-auto right-0 top-0 h-[500px] w-[500px] -translate-x-[30%] translate-y-[20%] rounded-full bg-[rgba(173,109,244,0.5)] opacity-50 blur-[80px]"></div></div>
       {/* <div className="absolute top-0 z-[-2] h-screen w-screen bg-white bg-[radial-gradient(100%_50%_at_50%_0%,rgba(0,163,255,0.13)_0,rgba(0,163,255,0)_50%,rgba(0,163,255,0)_100%)]"></div> */}
       {/* <div className="relative h-full w-full bg-white"><div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_80%_50%_at_50%_0%,#000_70%,transparent_110%)]"></div></div> */}
        {/* <div className="absolute top-0 -z-10 h-full w-full bg-white"><div className="absolute bottom-auto left-auto right-0 top-0 h-[500px] w-[500px] -translate-x-[30%] translate-y-[20%] rounded-full bg-[rgba(173,109,244,0.5)] opacity-50 blur-[80px]"></div></div> */}
       {/*<div className='flex items-center justify-center min-h-screen bg-gradient-to-br from-purple-300 via-purple-100 to-white'></div> */}
-      <Spline scene="https://prod.spline.design/JsWhLfbg8tZPLYfz/scene.splinecode" />
+      {/* <Spline scene="https://prod.spline.design/JsWhLfbg8tZPLYfz/scene.splinecode" /> */}
       </div>
       <AnimatedCursor
       innerSize={12}
@@ -80,11 +80,7 @@ requestAnimationFrame(raf)
       <Exp />
       <Separator/>
       <Projects />
-      
-      {/* <DevProject1 />
-      <UxProject1 /> */}
-      {/* <Separator/>
-      <Contact /> */}
+
     </div>
   );
 }

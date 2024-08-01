@@ -118,8 +118,8 @@ const Dock = () => {
           >
             <Link to='Projects' spy={true} smooth={true} offset={0} duration={1000} onClick={toggleMenu}>Projects</Link>
           </motion.div>
-
-          <Separator/>
+{/* 
+          <Separator/> */}
 
           {/* <motion.div
             className="text-xl text-black transform transition-transform duration-300 hover:scale-125 hover:text-blue-500 cursor-pointer"
