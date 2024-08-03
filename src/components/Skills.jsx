@@ -4,7 +4,7 @@ import { useInView } from 'react-intersection-observer';
 
 const Skills = () => {
   const [ref, inView] = useInView({
-    triggerOnce: false, // Animation triggers only once
+    triggerOnce: true, // Animation triggers only once
     threshold: 0.1 // Trigger when 10% of the component is in view
   });
 
