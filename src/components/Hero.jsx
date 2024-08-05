@@ -18,6 +18,19 @@ const iconVariants = {
   };
 
 
+  const onbuttonClick = () =>{
+    const pdfUrl = "/src/assets/harshNikamCV.pdf";
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = "harshNikamCV.pdf"; // specify the filename
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+
+
+
+
 
 
 const Hero = () => {
@@ -81,7 +94,7 @@ const Hero = () => {
                                     transition={{ delay: 0.2, duration: 0.3 }}
                 className='resumeBtn '>
                     <button className='flex justify-center items-center gap-2 shadow-[rgba(0,_0,_0,_0.1)_0px_9px_30px] py-2 px-3 text-sm rounded-lg font-normal  bg-gradient-to-br from-slate-800 to-black text-white'
-                    onClick={() => window.open('/src/assets/harshNikamCV.pdf')}
+                    onClick={onbuttonClick}
                     >
                         Download CV <AiOutlineDownload /> 
                         </button>   
