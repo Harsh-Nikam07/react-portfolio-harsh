@@ -25,7 +25,7 @@ const iconVariants = {
     link.download = "harshNikamCV.pdf"; // specify the filename
     document.body.appendChild(link);
     link.click();
-    document.body.removeChild(link);
+    
   }
 
 
