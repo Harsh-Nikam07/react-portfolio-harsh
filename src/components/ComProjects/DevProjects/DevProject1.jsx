@@ -55,7 +55,7 @@ const DevProjects = () => {
           alt="" 
           variants={{
             rest: { rotate: 0 },
-            hover: {  translateX: -5, translateY:-5, scale:1.1, rotate:-4 }
+            // hover: {  translateX: -5, translateY:-5, scale:1.1, rotate:-4 }
           }}
           transition={{ duration: 0.5 }}
         />
@@ -76,7 +76,7 @@ const DevProjects = () => {
               alt="" 
               variants={{
                 rest: { rotate: 0 },
-                hover: {  translateX: -5, translateY:-5, scale:1.1, rotate:4 }
+                // hover: {  translateX: -5, translateY:-5, scale:1.1, rotate:4 }
               }}
               transition={{ duration: 0.5 }}
             />
@@ -84,7 +84,7 @@ const DevProjects = () => {
       <div className='ProdDetails w-full md:w-1/2 flex justify-start items-start flex-col gap-4'>
         <div className='ProdTitle flex justify-center items-center flex-row gap-2'>
           <span className='text-xl font-medium'>Personal Portfolio Website</span>
-          <a href="#" >
+          <a href="https://harsh-nikam07.github.io/EDUWEB-E-learning-website/" target='_blank' >
             <span className='text-xl font-medium'><IoIosLink /></span>
           </a>
         </div>
@@ -164,7 +164,7 @@ const DevProjects = () => {
           alt="" 
           variants={{
             rest: { rotate: 0 },
-            hover: {  translateX: -5, translateY:-5, scale:1.1, rotate:-4 }
+            // hover: {  translateX: -5, translateY:-5, scale:1.1, rotate:-4 }
           }}
           transition={{ duration: 0.5 }}
         />
