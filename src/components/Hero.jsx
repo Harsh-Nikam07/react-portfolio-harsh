@@ -19,7 +19,7 @@ const iconVariants = {
 
 
   const onbuttonClick = () =>{
-    const pdfUrl = "/src/assets/harshNikamCV.pdf";
+    const pdfUrl = "/harshNikamCV.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.download = "harshNikamCV.pdf"; // specify the filename
