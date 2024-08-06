@@ -35,17 +35,21 @@ const Hero = () => {
             animate="visible"
             transition={{ delay: 0.1, duration: 0.3 }}>
 
-            <div className='heroParent flex  h-full justify-center  items-center flex-col gap-2  flex-wrap'>
-                <div className='heroSubSection flex items-center w-full justify-between flex-row flex-wrap-reverse  rounded-lg p-5 gap-10'>
-                    <div className='mainHeading flex justify-start items-start flex-col gap-5'>
-                        <span className='text-4xl font-normal bg-white rounded-lg p-2'>
+            <div className='heroParent flex w-full  h-full justify-center  items-center flex-col   flex-wrap'>
+                <div className='heroSubSection flex items-center w-full justify-center flex-col rounded-lg p-5'>
+                {/* <div className='ImgSection flex justify-start items-start shadow-sm '>
+                        <img className='w-32 rounded-full  border-4 border-white'  src={harshDevProfile} alt="Harsh Dev Profile" />
+                    </div> */}
+                    <div className='mainHeading flex justify-center items-center flex-col '>
+                        {/* <span className='text-4xl font-normal bg-white rounded-lg p-2'>
                             Hi, I&apos;m <span className='font-semibold'>Harsh Nikam</span> 👋
+                        </span> */}
+                        <span className='text-4xl font-normal bg-white rounded-lg p-2'>
+                            Passionate and <span className='font-semibold'>Creative</span>
                         </span>
                         <span className='text-xl desig bg-white rounded-lg p-2'>Frontend Developer & UI / UX Designer</span>
                     </div>
-                    <div className='ImgSection flex justify-start items-start shadow-sm '>
-                        <img className='w-32 rounded-full  border-4 border-white'  src={harshDevProfile} alt="Harsh Dev Profile" />
-                    </div>
+
                 </div>
 
                 <div className='w-fit h-fit  p-2 flex justify-center items-center flex-wrap flex-row gap-6'>

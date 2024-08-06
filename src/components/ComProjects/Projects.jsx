@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import DevProjects from "./DevProjects/DevProject1"
 import UxProjects from "./UiUxProjects/UxProject1"
+import "./assets/css/devProjects.css"
 
 
 const Projects = () => {
@@ -28,7 +29,9 @@ const Projects = () => {
         return <>
 
 
+              <div className='w-full h-full'>
               <DevProjects/>
+              </div>
             
         
         </>;
@@ -59,7 +62,7 @@ const Projects = () => {
     <div className='h-full w-full flex items-center justify-center mt-10 bg-transparent p-5' id='Projects'>
       <motion.div
         // ref={ref}
-        className='heroParent w-full md:w-3/5 lg:w-2/3 xl:w-3/5 h-fit justify-center items-center flex-col  p-5 flex-wrap   rounded-lg '
+        className='heroParent w-full md:w-full xl:w-4/5 h-fit justify-center items-center flex-col  p-5 flex-wrap   rounded-lg '
         // initial="hidden"
         // animate={inView ? "visible" : "hidden"}
         variants={variants}
@@ -76,7 +79,7 @@ const Projects = () => {
             {['Front End', 'UI / UX',].map((tab, index) => (
               <motion.button
                 key={tab}
-                className={`tabButton ${activeTab === tab ? 'active' : ''} px-4 py-2 rounded-lg transition-colors duration-300 ${activeTab === tab ? 'bg-purple-400 text-black' : 'bg-gray-200 dark:bg-gray-700 dark:text-gray-200'}`}
+                className={`tabButton ${activeTab === tab ? 'active' : ''} px-4 py-2 rounded-lg transition-colors duration-300 ${activeTab === tab ? 'bg-purple-400 text-white' : 'bg-gray-200 dark:bg-gray-700 dark:text-gray-200'}`}
                 onClick={() => setActiveTab(tab)}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}

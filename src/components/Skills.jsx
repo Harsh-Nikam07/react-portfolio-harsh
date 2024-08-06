@@ -25,7 +25,7 @@ const Skills = () => {
   
 
   return (
-    <div className='h-screen flex items-center justify-center bg-transparent' id='skills'>
+    <div className='h-screen flex justify-center items-center bg-transparent' id='skills'>
       <motion.div
         ref={ref}
         className='heroParent flex h-fit justify-center items-center flex-col gap-10 p-5 flex-wrap rounded-lg'

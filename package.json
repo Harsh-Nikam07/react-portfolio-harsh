@@ -16,6 +16,7 @@
     "clsx": "^2.1.1",
     "framer-motion": "^11.3.14",
     "lenis": "^1.1.8",
+    "lodash": "^4.17.21",
     "mouse-position": "^2.1.0",
     "prop-types": "^15.8.1",
     "react": "^18.3.1",
