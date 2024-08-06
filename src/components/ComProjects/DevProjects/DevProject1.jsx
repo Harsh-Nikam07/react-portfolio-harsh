@@ -231,6 +231,9 @@ const DevProjects = () => {
           <div className='skill-heroS flex justify-center items-center gap-2  py-2 px-3 text-sm rounded-lg font-normal bg-gradient-to-br from-slate-800 to-black text-white'>
             <span> JavaScript </span>
           </div>
+          <div className='skill-heroS flex justify-center items-center gap-2  py-2 px-3 text-sm rounded-lg font-normal bg-gradient-to-br from-slate-800 to-black text-white'>
+            <span> Spline </span>
+          </div>
         </div>
       </div>
 

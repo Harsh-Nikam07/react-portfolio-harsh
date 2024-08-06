@@ -69,10 +69,10 @@ const App = () => {
   return (
     <div className='relative overflow-x-hidden h-full w-full text-black selection:bg-purple-500 selection:text-white'>
       <div className='fixed top-0 left-0 h-full w-full z-[-1]'>
-        <Spline scene="https://prod.spline.design/8H0x2wNUtaUYA9WO/scene.splinecode" />
+        {!isMobile && (<Spline scene="https://prod.spline.design/8H0x2wNUtaUYA9WO/scene.splinecode" />)}
       </div>
 
-      <div className='cursor' ref={cursorRef}></div>
+      {!isMobile && (<div className='cursor' ref={cursorRef}></div>)}
 
       <div className='container mx-auto px-8'>
         <Dock />

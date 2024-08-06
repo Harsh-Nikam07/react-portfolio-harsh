@@ -40,7 +40,7 @@ const Hero = () => {
                 {/* <div className='ImgSection flex justify-start items-start shadow-sm '>
                         <img className='w-32 rounded-full  border-4 border-white'  src={harshDevProfile} alt="Harsh Dev Profile" />
                     </div> */}
-                    <div className='mainHeading flex justify-center items-center flex-col '>
+                    <div className='mainHeading flex justify-center items-center flex-col text-center'>
                         {/* <span className='text-4xl font-normal bg-white rounded-lg p-2'>
                             Hi, I&apos;m <span className='font-semibold'>Harsh Nikam</span> 👋
                         </span> */}
