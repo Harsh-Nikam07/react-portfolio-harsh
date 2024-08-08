@@ -83,9 +83,9 @@ const App = () => {
       <Separator />
       <Skills />
       <Separator />
-      <Exp />
-      <Separator />
       <Projects />
+      <Separator />
+      <Exp />
     </div>
   );
 };

@@ -7,7 +7,7 @@ import "./assets/css/devProjects.css"
 
 
 const Projects = () => {
-  const [activeTab, setActiveTab] = useState('Front End');
+  const [activeTab, setActiveTab] = useState('Development');
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.3
@@ -25,28 +25,22 @@ const Projects = () => {
 
   const renderContent = () => {
     switch (activeTab) {
-      case 'Front End':
+      case 'Development':
         return <>
 
 
-              <div className='w-full h-full'>
+              <div className='w-full h-full flex justify-center items-center'>
               <DevProjects/>
               </div>
             
         
         </>;
-      case 'UI / UX':
+      case 'UI / UX Design':
         return <>
 
-            <motion.div
-              ref={ref}
-              initial="hidden"
-              animate={inView ? "visible" : "hidden"}
-              variants={variants}
-              transition={{ duration: 0.1 }}
-            >
+
               <UxProjects/>
-            </motion.div>
+   
         
         </>
       case 'backend':
@@ -76,7 +70,7 @@ const Projects = () => {
             </span>
           </div>
           <div className='tabs flex flex-wrap gap-5 space-x-4 mt-4 md:mt-0 mb-5'>
-            {['Front End', 'UI / UX',].map((tab, index) => (
+            {['Development', 'UI / UX Design',].map((tab, index) => (
               <motion.button
                 key={tab}
                 className={`tabButton ${activeTab === tab ? 'active' : ''} px-4 py-2 rounded-lg transition-colors duration-300 ${activeTab === tab ? 'bg-purple-400 text-white' : 'bg-gray-200 dark:bg-gray-700 dark:text-gray-200'}`}

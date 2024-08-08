@@ -6,6 +6,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 import { HiArrowLongRight } from "react-icons/hi2";
 import { LuGithub } from "react-icons/lu";
 import { FaLinkedinIn } from "react-icons/fa6";
+import { FiDribbble } from "react-icons/fi";
 
 const iconVariants = {
     hidden: { opacity: 0, x: -100 },
@@ -44,10 +45,14 @@ const Hero = () => {
                         {/* <span className='text-4xl font-normal bg-white rounded-lg p-2'>
                             Hi, I&apos;m <span className='font-semibold'>Harsh Nikam</span> 👋
                         </span> */}
-                        <span className='text-4xl font-normal bg-white rounded-lg p-2'>
-                            Passionate and <span className='font-semibold'>Creative</span>
+                        <span className='text-3xl md:text-6xl font-normal bg-white rounded-lg p-2'>
+                            Passionate and 
+                            <span className='font-semibold bg-gradient-to-r from-purple-800 to-blue-500 bg-clip-text text-transparent'> Creative
+                            </span>
                         </span>
-                        <span className='text-xl desig bg-white rounded-lg p-2'>Frontend Developer & UI / UX Designer</span>
+
+
+                        <span className='text-2xl desig bg-white rounded-lg p-2'>Frontend Developer & UI / UX Designer</span>
                     </div>
 
                 </div>
@@ -84,11 +89,14 @@ const Hero = () => {
                         animate="visible"
                         transition={{ delay: 0.3, duration: 0.3 }}
                         className='socials flex justify-center items-center gap-3  '>
-                        <a href="https://github.com/Harsh-Nikam07" className='flex justify-center items-center gap-2 shadow-[rgba(0,_0,_0,_0.1)_0px_9px_30px] py-2 px-2 text-xl rounded-full font-normal  bg-gradient-to-br from-slate-800 to-black text-white'>
+                        <a href="https://github.com/Harsh-Nikam07" target='_blank' className='flex justify-center items-center gap-2 shadow-[rgba(0,_0,_0,_0.1)_0px_9px_30px] py-2 px-2 text-xl rounded-full font-normal  bg-gradient-to-br from-slate-800 to-black text-white'>
                             <LuGithub/>
                         </a>
-                        <a href="https://www.linkedin.com/in/harshnikam/" className='flex justify-center items-center gap-2 shadow-[rgba(0,_0,_0,_0.1)_0px_9px_30px] py-2 px-2 text-xl rounded-full font-normal  bg-gradient-to-br from-slate-800 to-black text-white'>
+                        <a href="https://www.linkedin.com/in/harshnikam/" target='_blank' className='flex justify-center items-center gap-2 shadow-[rgba(0,_0,_0,_0.1)_0px_9px_30px] py-2 px-2 text-xl rounded-full font-normal  bg-gradient-to-br from-slate-800 to-black text-white'>
                             <FaLinkedinIn/>
+                        </a>
+                        <a href="https://dribbble.com/Harsh_Nikam" target='_blank' className='flex justify-center items-center gap-2 shadow-[rgba(0,_0,_0,_0.1)_0px_9px_30px] py-2 px-2 text-xl rounded-full font-normal  bg-gradient-to-br from-slate-800 to-black text-white'>
+                            <FiDribbble />
                         </a>
                     </motion.div>
                 </div>

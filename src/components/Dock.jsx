@@ -95,7 +95,18 @@ const Dock = () => {
 
           <Separator/>
 
+          <motion.div
+            className="text-xl text-black transform transition-transform duration-300 hover:scale-125 hover:text-blue-500 cursor-pointer"
+            variants={iconVariants}
+            initial="hidden"
+            animate="visible"
+            transition={{ delay: 0.5, duration: 0.5 }}
+          >
+            <Link to='Projects' spy={true} smooth={true} offset={0} duration={1000} onClick={toggleMenu}>Projects</Link>
+          </motion.div>
 
+
+          <Separator/>
           <motion.div
             className="text-xl text-black transform transition-transform duration-300 hover:scale-125 hover:text-blue-500 cursor-pointer"
             variants={iconVariants}
@@ -106,18 +117,8 @@ const Dock = () => {
             <Link to='Exp' spy={true} smooth={true} offset={0} duration={1000} onClick={toggleMenu}>Work Experience</Link>
           </motion.div>
 
-          <Separator/>
 
 
-          <motion.div
-            className="text-xl text-black transform transition-transform duration-300 hover:scale-125 hover:text-blue-500 cursor-pointer"
-            variants={iconVariants}
-            initial="hidden"
-            animate="visible"
-            transition={{ delay: 0.5, duration: 0.5 }}
-          >
-            <Link to='Projects' spy={true} smooth={true} offset={0} duration={1000} onClick={toggleMenu}>Projects</Link>
-          </motion.div>
 {/* 
           <Separator/> */}
 
@@ -190,15 +191,7 @@ const Dock = () => {
           <Link to='skills' spy={true} smooth={true} offset={0} duration={1000}><div className=' py-1 px-2  text-black rounded-lg  flex items-center justify-center hover:bg-purple-200  transition-all'><span className='text-base text-black'>Skills</span></div></Link>
         </motion.div>
        
-        <motion.div
-          className="text-xl text-black transform duration-300 hover:scale-125 hover:text-blue-500 cursor-pointer transition-all"
-          variants={iconVariants}
-          initial="hidden"
-          animate="visible"
-          transition={{ delay: 0.4, duration: 0.3 }}
-        >
-          <Link to='Exp' spy={true} smooth={true} offset={-100} duration={1000}><div className='py-1 px-2  text-black rounded-lg flex items-center justify-center hover:bg-purple-200  transition-all'><span className='text-base text-black'>Work Experience</span></div></Link>
-        </motion.div>
+
 
         <motion.div
           className="text-xl text-black transform duration-300 hover:scale-125 hover:text-blue-500 cursor-pointer transition-all"
@@ -208,6 +201,16 @@ const Dock = () => {
           transition={{ delay: 0.5, duration: 0.3 }}
         >
           <Link to='Projects' spy={true} smooth={true} offset={-100} duration={1000}><div className='py-1 px-2  text-black rounded-lg flex items-center justify-center hover:bg-purple-200  transition-all'><span className='text-base text-black'>Projects</span></div></Link>
+        </motion.div>
+
+        <motion.div
+          className="text-xl text-black transform duration-300 hover:scale-125 hover:text-blue-500 cursor-pointer transition-all"
+          variants={iconVariants}
+          initial="hidden"
+          animate="visible"
+          transition={{ delay: 0.4, duration: 0.3 }}
+        >
+          <Link to='Exp' spy={true} smooth={true} offset={-100} duration={1000}><div className='py-1 px-2  text-black rounded-lg flex items-center justify-center hover:bg-purple-200  transition-all'><span className='text-base text-black'>Work Experience</span></div></Link>
         </motion.div>
 
         {/* <motion.div

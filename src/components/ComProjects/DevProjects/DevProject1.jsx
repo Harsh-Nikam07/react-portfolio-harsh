@@ -36,7 +36,7 @@ const DevProjects = () => {
   return (
  
 
-    <div className='flex w-full h-full justify-ceter items-ceter flex-row flex-wrap gap-8'>
+    <div className='w-full h-full flex justify-center items-center flex-row flex-wrap gap-8'>
        <motion.div 
       className='w-full md:w-[34rem] h-fit flex justify-between items-center flex-row flex-wrap gap-5 bg-white rounded-3xl shadow-lg p-5'
       initial="rest"
