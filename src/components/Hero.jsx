@@ -19,10 +19,10 @@ const iconVariantsv2 = {
 };
 
 const onbuttonClick = () => {
-    const pdfUrl = "/harshNikamCV.pdf"; // Path to the PDF file in the public folder
+    const pdfUrl = "/HarshNikamCV(10-08-2024).pdf"; // Path to the PDF file in the public folder
     const link = document.createElement("a");
     link.href = pdfUrl;
-    link.download = "harshNikamCV.pdf"; // specify the filename
+    link.download = "HarshNikamCV(10-08-2024).pdf"; // specify the filename
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link); // Clean up the DOM
