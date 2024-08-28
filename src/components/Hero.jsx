@@ -1,5 +1,5 @@
 import React from 'react';
-import harshDevProfile from "../assets/harshDevProfile.jpg";
+// import harshDevProfile from "../assets/harshDevProfile.jpg";
 import "../assets/css/hero.css";
 import { motion } from 'framer-motion';
 import { AiOutlineDownload } from "react-icons/ai";
@@ -19,13 +19,13 @@ const iconVariantsv2 = {
 };
 
 const onbuttonClick = () => {
-    const pdfUrl = "/HarshNikamCV(10-08-2024).pdf"; // Path to the PDF file in the public folder
+    const pdfUrl = "/HarshNikamCV(10-08-2024).pdf"; 
     const link = document.createElement("a");
     link.href = pdfUrl;
-    link.download = "HarshNikamCV(10-08-2024).pdf"; // specify the filename
+    link.download = "HarshNikamCV(10-08-2024).pdf"; 
     document.body.appendChild(link);
     link.click();
-    document.body.removeChild(link); // Clean up the DOM
+    document.body.removeChild(link); 
 };
 
 const Hero = () => {
