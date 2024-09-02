@@ -1,12 +1,14 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 // import harshDevProfile from "../assets/harshDevProfile.jpg";
 import "../assets/css/hero.css";
 import { motion } from 'framer-motion';
 import { AiOutlineDownload } from "react-icons/ai";
 import { HiArrowLongRight } from "react-icons/hi2";
-import { LuGithub } from "react-icons/lu";
-import { FaLinkedinIn } from "react-icons/fa6";
-import { FiDribbble } from "react-icons/fi";
+import { TbBrandGithubFilled } from "react-icons/tb";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaDribbble } from "react-icons/fa";
+import { HiMiniArrowLongDown } from "react-icons/hi2";
 
 const iconVariants = {
     hidden: { opacity: 0, x: -100 },
@@ -30,45 +32,44 @@ const onbuttonClick = () => {
 
 const Hero = () => {
     return (
+        <>
         <motion.section id='Hero' className='h-screen w-full flex items-center justify-center '
             variants={iconVariants}
             initial="hidden"
             animate="visible"
             transition={{ delay: 0.1, duration: 0.3 }}>
 
-            <div className='heroParent flex w-full  h-full justify-center  items-center flex-col   flex-wrap'>
-                <div className='heroSubSection flex items-center w-full justify-center flex-col rounded-lg p-5'>
-                {/* <div className='ImgSection flex justify-start items-start shadow-sm '>
-                        <img className='w-32 rounded-full  border-4 border-white'  src={harshDevProfile} alt="Harsh Dev Profile" />
-                    </div> */}
-                    <div className='mainHeading flex justify-center items-center flex-col text-center'>
-                        {/* <span className='text-4xl font-normal bg-white rounded-lg p-2'>
-                            Hi, I&apos;m <span className='font-semibold'>Harsh Nikam</span> 👋
-                        </span> */}
-                        <span className='text-3xl md:text-6xl font-normal bg-white rounded-lg p-2'>
-                            Passionate and 
-                            <span className='font-semibold bg-gradient-to-r from-purple-800 to-blue-500 bg-clip-text text-transparent'> Creative
-                            </span>
-                        </span>
+            <div className='heroParent flex w-full  h-full justify-center  items-center flex-col   flex-wrap gap-5'>
 
-
-                        <span className='text-2xl desig bg-white rounded-lg p-2'>Frontend Developer & UI / UX Designer</span>
+                {/* <div className='w-4/5 h-fit flex flex-col justify-center items-center'>
+                    <div className='desc-chip'>
+                        <span>Front - End Developer & UI / UX Designer  </span>
                     </div>
+                </div> */}
 
+                <div className="card example-1">
+                    <div className="inner desc-chip">
+                            <span>Front - End Developer & UI / UX Designer  </span>
+                    </div>
                 </div>
 
+                <div className='w-4/5 h-fit flex flex-col justify-center items-center'>
+                    <span className='font-semibold text-white main-heading'>Crafting Interactive and Engaging Digital Experiences</span>
+                </div>
+
+
                 <div className='w-fit h-fit  p-2 flex justify-center items-center flex-wrap flex-row gap-6'>
-                    <motion.div
-                        variants={iconVariantsv2}
-                        initial="hidden"
-                        animate="visible"
-                        transition={{ delay: 0.1, duration: 0.3 }}
-                        className='contactBtn flex justify-center items-center gap-2 shadow-[rgba(0,_0,_0,_0.1)_0px_9px_30px] py-2 px-3 text-sm rounded-lg font-normal bg-gradient-to-br from-slate-800 to-black text-white '>
-                        <a href="mailto:harshnikam4536@gmail.com" >
-                            Contact me here
-                        </a>
-                        < HiArrowLongRight/>
-                    </motion.div>
+                            <Link to='Projects' spy={true} smooth={true} offset={-100} duration={1000} className='cursor-pointer'>
+                                <motion.div
+                                    variants={iconVariantsv2}
+                                    initial="hidden"
+                                    animate="visible"
+                                    transition={{ delay: 0.1, duration: 0.3 }}
+                                    className='contactBtn flex justify-center items-center gap-2  py-2 px-3 text-sm rounded-full  bg-[#C000FF] text-white font-semibold '>
+                                        See Projects
+                                        <HiMiniArrowLongDown />
+                                </motion.div>
+                            </Link>
 
                     <motion.div
                         variants={iconVariantsv2}
@@ -76,11 +77,15 @@ const Hero = () => {
                         animate="visible"
                         transition={{ delay: 0.2, duration: 0.3 }}
                         className='resumeBtn '>
-                        <button className='flex justify-center items-center gap-2 shadow-[rgba(0,_0,_0,_0.1)_0px_9px_30px] py-2 px-3 text-sm rounded-lg font-normal  bg-gradient-to-br from-slate-800 to-black text-white'
+                        <button className='flex justify-center items-center gap-2 py-2 px-3 text-sm rounded-full font-normal   bg-black border-2 border-[#C000FF] text-white  hover:border-[#bf00ff00]  hover:bg-[#C000FF] transition-all duration-200 ease-out'
                         onClick={onbuttonClick}
                         >
-                            Download CV <AiOutlineDownload /> 
+                            Download CV <AiOutlineDownload className='text-lg'/> 
                         </button>   
+                        {/* <a href="#_" className="px-5 py-2.5 relative rounded group overflow-hidden font-medium bg-purple-50 text-purple-600 inline-block">
+                            <span className="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-x-0 bg-purple-600 group-hover:h-full opacity-90"></span>
+                            <span className="relative group-hover:text-white">Button Text</span>
+                        </a> */}
                     </motion.div>
 
                     <motion.div
@@ -89,19 +94,29 @@ const Hero = () => {
                         animate="visible"
                         transition={{ delay: 0.3, duration: 0.3 }}
                         className='socials flex justify-center items-center gap-3  '>
-                        <a href="https://github.com/Harsh-Nikam07" target='_blank' className='flex justify-center items-center gap-2 shadow-[rgba(0,_0,_0,_0.1)_0px_9px_30px] py-2 px-2 text-xl rounded-full font-normal  bg-gradient-to-br from-slate-800 to-black text-white'>
-                            <LuGithub/>
+                        <a href="https://github.com/Harsh-Nikam07" target='_blank' className='w-10 h-10 border-2 border-[#C000FF] flex justify-center items-center rounded-full hover:bg-[#C000FF]'>
+                            <TbBrandGithubFilled className="text-white" />
                         </a>
-                        <a href="https://www.linkedin.com/in/harshnikam/" target='_blank' className='flex justify-center items-center gap-2 shadow-[rgba(0,_0,_0,_0.1)_0px_9px_30px] py-2 px-2 text-xl rounded-full font-normal  bg-gradient-to-br from-slate-800 to-black text-white'>
-                            <FaLinkedinIn/>
+                        <a href="https://www.linkedin.com/in/harshnikam/" target='_blank' className='w-10 h-10 border-2 border-[#C000FF] flex justify-center items-center rounded-full hover:bg-[#C000FF]'>
+                            <FaLinkedinIn className="text-white w-4 h-4" />
                         </a>
-                        <a href="https://dribbble.com/Harsh_Nikam" target='_blank' className='flex justify-center items-center gap-2 shadow-[rgba(0,_0,_0,_0.1)_0px_9px_30px] py-2 px-2 text-xl rounded-full font-normal  bg-gradient-to-br from-slate-800 to-black text-white'>
-                            <FiDribbble />
+                        <a href="https://dribbble.com/Harsh_Nikam" target='_blank' className='w-10 h-10 border-2 border-[#C000FF] flex justify-center items-center rounded-full hover:bg-[#C000FF]'>
+                            <FaDribbble className="text-white w-4 h-4" />
                         </a>
                     </motion.div>
+
+
+
+
+
+
                 </div>
+
             </div>
+
         </motion.section>
+
+                </>
     )
 };
 

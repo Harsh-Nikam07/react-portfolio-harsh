@@ -1,3 +1,23 @@
+/* Scrollbar styling for WebKit browsers (Chrome, Safari, Edge) */
+body::-webkit-scrollbar {
+  width: 6px; /* Width of the scrollbar */
+}
+
+
+body::-webkit-scrollbar-track {
+  background: #1a1a1a; /* Background of the track */
+}
+
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(306deg, rgba(238,187,255,1) 0%, rgba(192,0,255,1) 100%);
+  border-radius: 10px; /* Rounded thumb */
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(306deg, rgba(238,187,255,1) 0%, rgba(192,0,255,1) 80%);
+}
+
+
 .cursor {
   border: 2px solid black;
   height: 16px;
@@ -8,4 +28,9 @@
   left: 0;
   pointer-events: none;
   z-index: 100;
+}
+
+
+.parent-bg{
+  background: url('../bgv2.png');
 }

@@ -65,7 +65,7 @@ const Projects = () => {
         
         <div className='heroSubSection w-full flex items-center  justify-center flex-col gap-5 md:flex-col'>
           <div className='mainHeading flex justify-center items-center flex-col flex-wrap '>
-            <span className='text-4xl font-semibold dark:text-black'>
+            <span className='md:text-4xl text-2xl font-semibold text-white'>
               Projects
             </span>
           </div>
@@ -73,9 +73,9 @@ const Projects = () => {
             {['Development', 'UI / UX Design',].map((tab, index) => (
               <motion.button
                 key={tab}
-                className={`tabButton ${activeTab === tab ? 'active' : ''} px-4 py-2 rounded-lg transition-colors duration-300 ${activeTab === tab ? 'bg-purple-400 text-white' : 'bg-gray-200 dark:bg-gray-700 dark:text-gray-200'}`}
+                className={`tabButton ${activeTab === tab ? 'active' : ''} px-4 py-2 rounded-lg transition-colors duration-300 ${activeTab === tab ? 'bg-[#C000FF] text-white' : 'bg-black border-2 border-[#C000FF] text-white hover:bg-[#C000FF]'}`}
                 onClick={() => setActiveTab(tab)}
-                whileHover={{ scale: 1.1 }}
+                
                 whileTap={{ scale: 0.9 }}
                 transition={{ duration: 0.2 }}
               >

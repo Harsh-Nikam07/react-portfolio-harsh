@@ -4,15 +4,15 @@ import { useInView } from 'react-intersection-observer';
 
 const Skills = () => {
   const [ref, inView] = useInView({
-    triggerOnce: true, // Animation triggers only once
-    threshold: 0.1 // Trigger when 10% of the component is in view
+    triggerOnce: true,
+    threshold: 0.1
   });
 
   const containerVariants = {
     hidden: {},
     visible: {
       transition: {
-        staggerChildren: 0.1 // Stagger children with 0.2 seconds delay
+        staggerChildren: 0.1
       }
     }
   };
@@ -22,140 +22,54 @@ const Skills = () => {
     visible: { opacity: 1, y: 0 }
   };
 
-  
+  // Array of skills
+  const skills = [
+    { name: 'HTML' },
+    { name: 'CSS' },
+    { name: 'JavaScript' },
+    { name: 'React' },
+    { name: 'Redux'},
+    { name: 'Tailwind' },
+    { name: 'Framer Motion' },
+    { name: 'Bootstrap' },
+    { name: 'Spline' },
+    { name: 'Responsive Design' },
+    { name: 'Figma' },
+    { name: 'Wire Framing' },
+    { name: 'Prototyping' },
+    { name: 'User Flows' },
+
+  ];
 
   return (
-    <div className='h-screen flex justify-center items-center bg-transparent' id='skills'>
+    <div className='md:h-screen h-full flex justify-center items-center bg-transparent' id='skills'>
       <motion.div
         ref={ref}
         className='heroParent flex h-fit justify-center items-center flex-col gap-10 p-5 flex-wrap rounded-lg'
         initial="hidden"
         animate={inView ? "visible" : "hidden"}
         variants={containerVariants}
-        
-        
       >
         <div className='heroSubSection flex items-center w-full justify-center flex-row'>
           <div className='mainHeading flex justify-center items-center'>
-            <span className='text-4xl font-semibold'>Skills</span>
+            <span className='md:text-4xl text-2xl font-semibold text-white'>Skills & Tech Stack</span>
           </div>
         </div>
 
         <div className='devDesc w-full flex justify-start items-start text-justify'>
           <motion.div
-            className='skills w-[30rem] flex justify-center items-center flex-1 flex-row flex-wrap gap-2'
+            className='skills w-[30rem] flex justify-center items-center flex-1 flex-row flex-wrap gap-3'
             variants={containerVariants}
           >
-            <motion.div
-              variants={skillVariants}
-              className='skill-heroS flex justify-center items-center gap-2 shadow-[rgba(0,_0,_0,_0.1)_0px_9px_30px] py-2 px-3 text-base rounded-lg font-normal bg-gradient-to-br from-slate-800 to-black text-white'
-            >
-              <span> HTML </span>
-              
-            </motion.div>
-
-            <motion.div
-              variants={skillVariants}
-              className='skill-heroS flex justify-center items-center gap-2 shadow-[rgba(0,_0,_0,_0.1)_0px_9px_30px] py-2 px-3 text-base rounded-lg font-normal bg-gradient-to-br from-slate-800 to-black text-white'
-            >
-              <span> CSS </span>
-            </motion.div>
-
-            <motion.div
-              variants={skillVariants}
-              className='skill-heroS flex justify-center items-center gap-2 shadow-[rgba(0,_0,_0,_0.1)_0px_9px_30px] py-2 px-3 text-base rounded-lg font-normal bg-gradient-to-br from-slate-800 to-black text-white'
-            >
-              <span> JavaScript </span>
-            </motion.div>
-
-            <motion.div
-              variants={skillVariants}
-              className='skill-heroS flex justify-center items-center gap-2 shadow-[rgba(0,_0,_0,_0.1)_0px_9px_30px] py-2 px-3 text-base rounded-lg font-normal bg-gradient-to-br from-slate-800 to-black text-white'
-            >
-              <span> React </span>
-            </motion.div>
-
-            <motion.div
-              variants={skillVariants}
-              className='skill-heroS flex justify-center items-center gap-2 shadow-[rgba(0,_0,_0,_0.1)_0px_9px_30px] py-2 px-3 text-base rounded-lg font-normal bg-gradient-to-br from-slate-800 to-black text-white'
-            >
-              <span> Tailwind </span>
-            </motion.div>
-
-
-            <motion.div
-              variants={skillVariants}
-              className='skill-heroS flex justify-center items-center gap-2 shadow-[rgba(0,_0,_0,_0.1)_0px_9px_30px] py-2 px-3 text-base rounded-lg font-normal bg-gradient-to-br from-slate-800 to-black text-white'
-            >
-              <span> Framer Motion </span>
-            </motion.div>
-
-
-            <motion.div
-              variants={skillVariants}
-              className='skill-heroS flex justify-center items-center gap-2 shadow-[rgba(0,_0,_0,_0.1)_0px_9px_30px] py-2 px-3 text-base rounded-lg font-normal bg-gradient-to-br from-slate-800 to-black text-white'
-            >
-              <span> Bootstrap </span>
-            </motion.div>
-
-
-            {/* <motion.div
-              variants={skillVariants}
-              className='skill-heroS flex justify-center items-center gap-2 shadow-[rgba(0,_0,_0,_0.1)_0px_9px_30px] py-2 px-3 text-base rounded-lg font-normal bg-gradient-to-br from-slate-800 to-black text-white'
-            >
-              <span> Lenis </span>
-            </motion.div> */}
-
-
-            <motion.div
-              variants={skillVariants}
-              className='skill-heroS flex justify-center items-center gap-2 shadow-[rgba(0,_0,_0,_0.1)_0px_9px_30px] py-2 px-3 text-base rounded-lg font-normal bg-gradient-to-br from-slate-800 to-black text-white'
-            >
-              <span> Spline </span>
-            </motion.div>
-
-
-            <motion.div
-              variants={skillVariants}
-              className='skill-heroS flex justify-center items-center gap-2 shadow-[rgba(0,_0,_0,_0.1)_0px_9px_30px] py-2 px-3 text-base rounded-lg font-normal bg-gradient-to-br from-slate-800 to-black text-white'
-            >
-              <span> Reponsive Design </span>
-            </motion.div>
-
-
-            <motion.div
-              variants={skillVariants}
-              className='skill-heroS flex justify-center items-center gap-2 shadow-[rgba(0,_0,_0,_0.1)_0px_9px_30px] py-2 px-3 text-base rounded-lg font-normal bg-gradient-to-br from-slate-800 to-black text-white'
-            >
-              <span> Figma </span>
-            </motion.div>
-
-
-            <motion.div
-              variants={skillVariants}
-              className='skill-heroS flex justify-center items-center gap-2 shadow-[rgba(0,_0,_0,_0.1)_0px_9px_30px] py-2 px-3 text-base rounded-lg font-normal bg-gradient-to-br from-slate-800 to-black text-white'
-            >
-              <span> Wire Framing </span>
-            </motion.div>
-
-            <motion.div
-              variants={skillVariants}
-              className='skill-heroS flex justify-center items-center gap-2 shadow-[rgba(0,_0,_0,_0.1)_0px_9px_30px] py-2 px-3 text-base rounded-lg font-normal bg-gradient-to-br from-slate-800 to-black text-white'
-            >
-              <span> Flutter </span>
-            </motion.div>
-
-
-            <motion.div
-              variants={skillVariants}
-              className='skill-heroS flex justify-center items-center gap-2 shadow-[rgba(0,_0,_0,_0.1)_0px_9px_30px] py-2 px-3 text-base rounded-lg font-normal bg-gradient-to-br from-slate-800 to-black text-white'
-            >
-              <span> Dart </span>
-            </motion.div>
-
-            
-            
-
+            {skills.map((skill, index) => (
+              <motion.div
+                key={index}
+                variants={skillVariants}
+                className='skill-heroS flex justify-center items-center gap-2 py-1 px-3 text-base rounded-full font-normal text-white border-2 border-[#C000FF] hover:bg-[#C000FF]'
+              >
+                <span>{skill.name}</span>
+              </motion.div>
+            ))}
           </motion.div>
         </div>
       </motion.div>
