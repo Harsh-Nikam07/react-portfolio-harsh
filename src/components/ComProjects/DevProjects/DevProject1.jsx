@@ -73,15 +73,17 @@ const DevProjects = () => {
         projects.map((project, index) =>{
           
           return (
-            <motion.a 
-            key={index}
-            href={project.href}
-            target='_blank'
-            className='w-full md:w-[34rem] h-fit flex justify-between items-center flex-row flex-wrap gap-5 bg-white rounded-3xl p-5 shadow-lg'
-            initial="rest"
-            whileHover="hover"
-            animate="rest"
-            >
+            <>
+             
+              <motion.a 
+                key={index}
+                href={project.href}
+                target='_blank'
+                className='w-full md:w-[34rem] h-fit flex justify-between items-center flex-row flex-wrap gap-5 bg-black p-5 border border-black text-white  hover:border hover:border-[#C000FF] rounded-3xl transition-all duration-1200 ease-out'
+                initial="rest"
+                whileHover="hover"
+                animate="rest"
+              >
         
               <div className='ProdImage w-full  p-2 '>
                   <motion.img 
@@ -121,14 +123,14 @@ const DevProjects = () => {
             </div>
         
                 <div className='ProdDesc'>
-                  <span>{project.description}</span>
+                  <span className='text-sm'>{project.description}</span>
                 </div>
                 <div className='ProdTech w-full flex justify-start items-center flex-row flex-wrap gap-2'>
                   {
                     project.tech.map((tech, techIndex) => {
                       return(
-                        <div key={techIndex} className='skill-heroS flex justify-center items-center gap-2  py-2 px-3 text-sm rounded-lg font-normal bg-gradient-to-br from-slate-800 to-black text-white'>
-                          <span>{tech}</span>
+                        <div key={techIndex} className='skill-heroS skill-heroS flex justify-center items-center gap-2 py-1 px-3 text-base rounded-full font-normal text-white border-2 border-[#C000FF] hover:bg-[#C000FF]'>
+                          <span className='text-xs'>{tech}</span>
                         </div>
                       );
                     })
@@ -137,6 +139,9 @@ const DevProjects = () => {
               </div>
         
           </motion.a>
+             
+            
+            </>
         
           );
         })

@@ -7,7 +7,7 @@ const Exp = () => {
         <div className='heroParent flex w-full h-fit justify-center items-center flex-col gap-10 p-5 flex-wrap rounded-lg'>
           <div className='heroSubSection flex items-center w-full justify-between flex-col'>
             <div className='mainHeading flex justify-start items-start '>
-              <span className='text-4xl font-semibold'>
+              <span className='md:text-4xl text-2xl text-white font-semibold'>
                 Work Experience
               </span>
             </div>

@@ -56,7 +56,7 @@ const Projects = () => {
     <div className='h-full w-full flex items-center justify-center mt-10 bg-transparent p-5' id='Projects'>
       <motion.div
         // ref={ref}
-        className='heroParent w-full md:w-full xl:w-4/5 h-fit justify-center items-center flex-col  p-5 flex-wrap   rounded-lg '
+        className='heroParent w-full md:w-full  h-fit justify-center items-center flex-col  md:p-5 p-0 flex-wrap   rounded-lg '
         // initial="hidden"
         // animate={inView ? "visible" : "hidden"}
         variants={variants}

@@ -13,7 +13,7 @@ const iconVariants = {
 };
 
 const Separator = () => (
-  <div className="w-px h-6 bg-white"></div>
+  <div className="w-px h-6 bg-[#C000FF]"></div>
 );
 
 const Dock = () => {
@@ -46,7 +46,7 @@ const Dock = () => {
 
       {isOpen && (
         <motion.div
-          className="fixed top-0 left-0 w-full h-full bg-[#C000FF] flex flex-col items-center justify-center space-y-4 z-50"
+          className="fixed top-0 left-0 w-full h-full bg-black flex flex-col items-center justify-center space-y-4 z-50"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
