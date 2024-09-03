@@ -129,7 +129,7 @@ const DevProjects = () => {
                   {
                     project.tech.map((tech, techIndex) => {
                       return(
-                        <div key={techIndex} className='skill-heroS skill-heroS flex justify-center items-center gap-2 py-1 px-3 text-base rounded-full font-normal text-white border-2 border-[#C000FF] hover:bg-[#C000FF]'>
+                        <div key={techIndex} className='skill-heroS  flex justify-center items-center gap-2 py-1 px-3 text-base rounded-full font-normal text-white border-2 border-[#C000FF] hover:bg-[#C000FF]'>
                           <span className='text-xs'>{tech}</span>
                         </div>
                       );

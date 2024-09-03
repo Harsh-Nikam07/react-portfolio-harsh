@@ -42,7 +42,7 @@ const Skills = () => {
   ];
 
   return (
-    <div className='md:h-screen h-full flex justify-center items-center bg-transparent' id='skills'>
+    <div className='h-screen  flex justify-center items-center bg-transparent' id='skills'>
       <motion.div
         ref={ref}
         className='heroParent flex h-fit justify-center items-center flex-col gap-10 p-5 flex-wrap rounded-lg'
@@ -65,7 +65,7 @@ const Skills = () => {
               <motion.div
                 key={index}
                 variants={skillVariants}
-                className='skill-heroS flex justify-center items-center gap-2 py-1 px-3 text-base rounded-full font-normal text-white border-2 border-[#C000FF] hover:bg-[#C000FF] transition-all duration-2200 ease-out'
+                className='skill-heroS flex justify-center items-center gap-2 py-1 px-3 text-base rounded-full font-normal text-white border-2 border-[#C000FF] hover:bg-[#C000FF] '
               >
                 <span>{skill.name}</span>
               </motion.div>

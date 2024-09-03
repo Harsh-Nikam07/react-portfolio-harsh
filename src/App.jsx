@@ -74,7 +74,12 @@ const App = () => {
       </div> */}
 
       {/* {!isMobile && (<div className='cursor' ref={cursorRef}></div>)} */}
-
+      {/* <div className='fixed top-0 left-0 h-full w-full z-[-1]'>
+        <div className="absolute top-0 z-[-2] h-screen w-screen bg-black bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(192,0,255,0.3),rgba(255,255,255,0))]"></div>
+      </div> */}
+      <div className='bg-main fixed top-0 left-0 h-full w-full z-[-1]'>
+        <div className='bg-sub absolute top-0 z-[-2] h-screen w-screen'></div>
+      </div>
       
 
       <div className='container mx-auto px-8'>

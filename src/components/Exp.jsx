@@ -14,7 +14,7 @@ const Exp = () => {
           </div>
 
           <div className='expParent w-full h-fit flex justify-center items-center flex-wrap flex-col gap-12'>
-            <div className='w-full md:w-3/5 p-3 flex justify-center items-center flex-col flex-grow gap-0 bg-white rounded-lg shadow-lg'>
+            <div className='w-full md:w-3/5 p-3 flex justify-center items-center flex-col flex-grow gap-0 bg-black text-white border border-black hover:border hover:border-[#C000FF] rounded-lg transition-all duration-1200 ease-out'>
               <div className='w-full text-lg font-medium p-2'>
                 <span className=''>Front end Web Developer</span>
               </div>
@@ -28,8 +28,8 @@ const Exp = () => {
                 </div>
               </div>
 
-              <div className='desc p-2 flex justify-start items-center w-full'>
-                <ul className='list-disc pl-5 text-sm gap-2 '>
+              <div className='desc p-2 flex justify-start items-center w-full '>
+                <ul className='list-disc pl-5 text-sm gap-2 flex justify-start items-start flex-col'>
                   <li><span className='font-medium mr-2'>Enhanced User Interfaces: </span>Improved the visual design and usability of existing web applications.</li>
                   <li><span className=''>Project: <a className='text-blue-600 underline' href="https://vibetara.com/" target='_blank'>Vibetara:</a>  </span>Enhanced the user interface and developed new features.</li>
                   <li><span className=''>Project: Kohinoor Book Management Admin Software:</span>Developed the user interface for the Kohinoor Book Management Admin software, ensuring a seamless and intuitive experience for administrators.</li>
@@ -38,31 +38,31 @@ const Exp = () => {
               </div>
 
               <div className='skills w-full p-2 flex justify-start items-center flex-row flex-wrap gap-2'>
-                <div className='skill-heroS flex justify-center items-center gap-2 shadow-[rgba(0,_0,_0,_0.1)_0px_9px_30px] py-2 px-3 text-sm rounded-lg font-normal bg-gradient-to-br from-slate-800 to-black text-white'>
+                <div className='flex justify-center items-center gap-2 py-1 px-3 text-xs rounded-full font-normal text-white border-2 border-[#C000FF] hover:bg-[#C000FF] '>
                   <span> HTML </span>
                 </div>
-                <div className='skill-heroS flex justify-center items-center gap-2 shadow-[rgba(0,_0,_0,_0.1)_0px_9px_30px] py-2 px-3 text-sm rounded-lg font-normal bg-gradient-to-br from-slate-800 to-black text-white'>
+                <div className='flex justify-center items-center gap-2 py-1 px-3 text-xs rounded-full font-normal text-white border-2 border-[#C000FF] hover:bg-[#C000FF]'>
                   <span> CSS </span>
                 </div>
-                <div className='skill-heroS flex justify-center items-center gap-2 shadow-[rgba(0,_0,_0,_0.1)_0px_9px_30px] py-2 px-3 text-sm rounded-lg font-normal bg-gradient-to-br from-slate-800 to-black text-white'>
+                <div className='flex justify-center items-center gap-2 py-1 px-3 text-xs rounded-full font-normal text-white border-2 border-[#C000FF] hover:bg-[#C000FF]'>
                   <span> JavaScript </span>
                 </div>
-                <div className='skill-heroS flex justify-center items-center gap-2 shadow-[rgba(0,_0,_0,_0.1)_0px_9px_30px] py-2 px-3 text-sm rounded-lg font-normal bg-gradient-to-br from-slate-800 to-black text-white'>
+                <div className='flex justify-center items-center gap-2 py-1 px-3 text-xs rounded-full font-normal text-white border-2 border-[#C000FF] hover:bg-[#C000FF]'>
                   <span> Spline </span>
                 </div>
-                <div className='skill-heroS flex justify-center items-center gap-2 shadow-[rgba(0,_0,_0,_0.1)_0px_9px_30px] py-2 px-3 text-sm rounded-lg font-normal bg-gradient-to-br from-slate-800 to-black text-white'>
+                <div className='flex justify-center items-center gap-2 py-1 px-3 text-xs rounded-full font-normal text-white border-2 border-[#C000FF] hover:bg-[#C000FF]'>
                   <span> Figma </span>
                 </div>
-                <div className='skill-heroS flex justify-center items-center gap-2 shadow-[rgba(0,_0,_0,_0.1)_0px_9px_30px] py-2 px-3 text-sm rounded-lg font-normal bg-gradient-to-br from-slate-800 to-black text-white'>
+                <div className='flex justify-center items-center gap-2 py-1 px-3 text-xs rounded-full font-normal text-white border-2 border-[#C000FF] hover:bg-[#C000FF]'>
                   <span> Flutter </span>
                 </div>
-                <div className='skill-heroS flex justify-center items-center gap-2 shadow-[rgba(0,_0,_0,_0.1)_0px_9px_30px] py-2 px-3 text-sm rounded-lg font-normal bg-gradient-to-br from-slate-800 to-black text-white'>
+                <div className='flex justify-center items-center gap-2 py-1 px-3 text-xs rounded-full font-normal text-white border-2 border-[#C000FF] hover:bg-[#C000FF]'>
                   <span> Dart </span>
                 </div>
               </div>
             </div>
 
-            <div className='w-full md:w-3/5 p-3 flex justify-center items-center flex-col flex-grow gap-0 bg-white rounded-lg shadow-lg'>
+            <div className='w-full md:w-3/5 p-3 flex justify-center items-center flex-col flex-grow gap-0 bg-black text-white border border-black hover:border hover:border-[#C000FF] rounded-lg transition-all duration-1200 ease-out'>
               <div className='w-full text-lg font-medium p-2'>
                 <span className=''>Front end developer Intern</span>
               </div>
@@ -77,7 +77,7 @@ const Exp = () => {
               </div>
 
               <div className='desc p-2 flex justify-start items-center w-full'>
-                <ul className='list-disc pl-5 text-sm'>
+                <ul className='list-disc pl-5 text-sm gap-2 flex justify-start items-start flex-col'>
                   <li>Developed responsive web pages using HTML, CSS, and Bootstrap.</li>
                   <li>Contributed to UI design and prototyping with Figma.</li>
                   <li>Implemented responsive design techniques for better mobile usability.</li>
@@ -85,19 +85,19 @@ const Exp = () => {
               </div>
 
               <div className='skills w-full p-2 flex justify-start items-center flex-row flex-wrap gap-2'>
-                <div className='skill-heroS flex justify-center items-center gap-2 shadow-[rgba(0,_0,_0,_0.1)_0px_9px_30px] py-2 px-3 text-sm rounded-lg font-normal bg-gradient-to-br from-slate-800 to-black text-white'>
+                <div className='flex justify-center items-center gap-2 py-1 px-3 text-xs rounded-full font-normal text-white border-2 border-[#C000FF] hover:bg-[#C000FF]'>
                   <span> HTML </span>
                 </div>
-                <div className='skill-heroS flex justify-center items-center gap-2 shadow-[rgba(0,_0,_0,_0.1)_0px_9px_30px] py-2 px-3 text-sm rounded-lg font-normal bg-gradient-to-br from-slate-800 to-black text-white'>
+                <div className='flex justify-center items-center gap-2 py-1 px-3 text-xs rounded-full font-normal text-white border-2 border-[#C000FF] hover:bg-[#C000FF]'>
                   <span> CSS </span>
                 </div>
-                <div className='skill-heroS flex justify-center items-center gap-2 shadow-[rgba(0,_0,_0,_0.1)_0px_9px_30px] py-2 px-3 text-sm rounded-lg font-normal bg-gradient-to-br from-slate-800 to-black text-white'>
+                <div className='flex justify-center items-center gap-2 py-1 px-3 text-xs rounded-full font-normal text-white border-2 border-[#C000FF] hover:bg-[#C000FF]'>
                   <span> Bootstrap </span>
                 </div>
-                <div className='skill-heroS flex justify-center items-center gap-2 shadow-[rgba(0,_0,_0,_0.1)_0px_9px_30px] py-2 px-3 text-sm rounded-lg font-normal bg-gradient-to-br from-slate-800 to-black text-white'>
+                <div className='flex justify-center items-center gap-2 py-1 px-3 text-xs rounded-full font-normal text-white border-2 border-[#C000FF] hover:bg-[#C000FF]'>
                   <span> Responsive Design  </span>
                 </div>
-                <div className='skill-heroS flex justify-center items-center gap-2 shadow-[rgba(0,_0,_0,_0.1)_0px_9px_30px] py-2 px-3 text-sm rounded-lg font-normal bg-gradient-to-br from-slate-800 to-black text-white'>
+                <div className='flex justify-center items-center gap-2 py-1 px-3 text-xs rounded-full font-normal text-white border-2 border-[#C000FF] hover:bg-[#C000FF]'>
                   <span> Figma </span>
                 </div>
               </div>

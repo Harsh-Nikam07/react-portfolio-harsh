@@ -169,7 +169,7 @@ const Dock = () => {
           animate="visible"
           transition={{ delay: 0.2, duration: 0.3 }}
         >
-          <Link to='Hero' spy={true} smooth={true} offset={-100} duration={500}><div className=' py-2 px-3 rounded-full flex items-center justify-centert text-white text-base border-b-2 border-[#bf00ff00]  hover:border-b-2 hover:border-[#C000FF] transition-all duration-200 ease-out '><span className='text-base text-white'>Home</span></div></Link>
+          <Link to='Hero' spy={true} smooth={true} offset={-100} duration={500}><div className=' py-2 px-3 rounded-full flex items-center justify-centert text-white text-base hover:text-[#C000FF] transition-all duration-200 ease-out '><span className='text-base '>Home</span></div></Link>
         </motion.div>
        
         <motion.div
@@ -179,7 +179,7 @@ const Dock = () => {
           animate="visible"
           transition={{ delay: 0.3, duration: 0.3 }}
         >
-          <Link to='About' spy={true} smooth={true} offset={0} duration={1000}><div className=' py-2 px-3 rounded-full flex items-center justify-centert text-white text-base border-b-2 border-[#bf00ff00]  hover:border-b-2 hover:border-[#C000FF] transition-all duration-200 ease-out'><span className='text-base text-white'>About</span></div></Link>
+          <Link to='About' spy={true} smooth={true} offset={0} duration={1000}><div className=' py-2 px-3 rounded-full flex items-center justify-centert text-white text-base hover:text-[#C000FF] transition-all duration-200 ease-out'><span className='text-base '>About</span></div></Link>
         </motion.div>
 
 
@@ -190,7 +190,7 @@ const Dock = () => {
           animate="visible"
           transition={{ delay: 0.4, duration: 0.3 }}
         >
-          <Link to='skills' spy={true} smooth={true} offset={0} duration={1000}><div className=' py-2 px-3 rounded-full flex items-center justify-centert text-white text-base border-b-2 border-[#bf00ff00]  hover:border-b-2 hover:border-[#C000FF] transition-all duration-200 ease-out'><span className='text-base text-white'>Skills</span></div></Link>
+          <Link to='skills' spy={true} smooth={true} offset={0} duration={1000}><div className=' py-2 px-3 rounded-full flex items-center justify-centert text-white text-base hover:text-[#C000FF] transition-all duration-200 ease-out'><span className='text-base '>Skills</span></div></Link>
         </motion.div>
        
 
@@ -202,7 +202,7 @@ const Dock = () => {
           animate="visible"
           transition={{ delay: 0.5, duration: 0.3 }}
         >
-          <Link to='Projects' spy={true} smooth={true} offset={-100} duration={1000}><div className='py-2 px-3 rounded-full flex items-center justify-centert text-white text-base border-b-2 border-[#bf00ff00]  hover:border-b-2 hover:border-[#C000FF] transition-all duration-200 ease-out'><span className='text-base text-white'>Projects</span></div></Link>
+          <Link to='Projects' spy={true} smooth={true} offset={-100} duration={1000}><div className='py-2 px-3 rounded-full flex items-center justify-centert text-white text-base hover:text-[#C000FF] transition-all duration-200 ease-out'><span className='text-base '>Projects</span></div></Link>
         </motion.div>
 
         <motion.div
@@ -212,8 +212,19 @@ const Dock = () => {
           animate="visible"
           transition={{ delay: 0.6, duration: 0.3 }}
         >
-          <Link to='Exp' spy={true} smooth={true} offset={-100} duration={1000} className='w-fit'><div className='w-full py-2 px-3 rounded-full flex items-center justify-centert text-white text-base border-b-2 border-[#bf00ff00]  hover:border-b-2 hover:border-[#C000FF] transition-all duration-200 ease-out'>Work Experience</div></Link>
+          <Link to='Exp' spy={true} smooth={true} offset={-100} duration={1000} className='w-fit'><div className='w-full py-2 px-3 rounded-full flex items-center justify-centert text-white text-base hover:text-[#C000FF] transition-all duration-200 ease-out'>Work Experience</div></Link>
         </motion.div>
+
+
+        {/* <motion.div
+          className="text-xl text-black transform duration-300 hover:scale-125  cursor-pointer transition-all w-40"
+          variants={iconVariants}
+          initial="hidden"
+          animate="visible"
+          transition={{ delay: 0.6, duration: 0.3 }}
+        >
+          <Link to='Exp' spy={true} smooth={true} offset={-100} duration={1000} className='w-fit'><div className='w-full py-2 px-3 rounded-full flex items-center justify-centert text-white text-base hover:text-[#C000FF] transition-all duration-200 ease-out'>Work Experience</div></Link>
+        </motion.div> */}
 
 
 

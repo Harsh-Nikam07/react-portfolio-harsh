@@ -77,7 +77,7 @@ const Hero = () => {
                         animate="visible"
                         transition={{ delay: 0.2, duration: 0.3 }}
                         className='resumeBtn '>
-                        <button className='flex justify-center items-center gap-2 py-2 px-3 text-sm rounded-full font-normal   bg-black border-2 border-[#C000FF] text-white  hover:border-[#bf00ff00]  hover:bg-[#C000FF] transition-all duration-200 ease-out'
+                        <button className='flex justify-center items-center gap-2 py-2 px-3 text-sm rounded-full font-normal   bg-black border-2 border-[#C000FF] text-white  hover:border-[#bf00ff00]  hover:bg-[#c000ff] transition-all duration-200 ease-out'
                         onClick={onbuttonClick}
                         >
                             Download CV <AiOutlineDownload className='text-lg'/> 
