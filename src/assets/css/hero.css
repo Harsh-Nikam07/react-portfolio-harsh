@@ -27,7 +27,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    background: linear-gradient(90deg, #FFF 0%, #C000FF 100%);
+    background: linear-gradient(90deg, #FFF 0%, #6200ee 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -100,7 +100,7 @@
     border-radius: 50%;  */
     content: "";
     display: block;
-    background: conic-gradient(transparent 270deg, #C000FF, transparent);
+    background: conic-gradient(transparent 270deg, #6200ee, transparent);
     position: absolute;
     left: 50%;
     top: 50%;

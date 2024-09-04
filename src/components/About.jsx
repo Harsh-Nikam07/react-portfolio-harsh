@@ -40,7 +40,7 @@ const About = () => {
                 </div>
                 <div className='devDesc w-full flex justify-center items-center text-justify'>
                 <span className='leading-8 text-white'>
-                I&apos;m Harsh Nikam, a <span className='border-b-2 font-medium border-purple-500 '>Frontend Developer</span> and <span className='border-b-2 font-medium border-purple-500 ' >UI/UX Designer</span> dedicated to crafting intuitive and engaging web applications. With strong expertise in<span className='bg-[#C000FF] p-[0.2rem] px-[1rem] rounded-full mr-1 ml-1 font-medium'>Developing and Designing Cutting Edge Web Solutions</span> I excel in solving complex problems with clean, efficient code and innovative design solutions.
+                I&apos;m Harsh Nikam, a <span className='border-b-2 font-medium border-purple-500 '>Frontend Developer</span> and <span className='border-b-2 font-medium border-purple-500 ' >UI/UX Designer</span> dedicated to crafting intuitive and engaging web applications. With strong expertise in<span className='bg-[#6200ee] p-[0.2rem] px-[1rem] rounded-full mr-1 ml-1 font-medium'>Developing and Designing Cutting Edge Web Solutions</span> I excel in solving complex problems with clean, efficient code and innovative design solutions.
                 </span>
             </div>
 

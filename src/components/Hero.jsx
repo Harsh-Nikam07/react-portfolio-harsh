@@ -65,7 +65,7 @@ const Hero = () => {
                                     initial="hidden"
                                     animate="visible"
                                     transition={{ delay: 0.1, duration: 0.3 }}
-                                    className='contactBtn flex justify-center items-center gap-2  py-2 px-3 text-sm rounded-full  bg-[#C000FF] text-white font-semibold '>
+                                    className='contactBtn flex justify-center items-center gap-2  py-2 px-3 text-sm rounded-full  bg-[#6200ee] text-white font-semibold '>
                                         See Projects
                                         <HiMiniArrowLongDown />
                                 </motion.div>
@@ -77,7 +77,7 @@ const Hero = () => {
                         animate="visible"
                         transition={{ delay: 0.2, duration: 0.3 }}
                         className='resumeBtn '>
-                        <button className='flex justify-center items-center gap-2 py-2 px-3 text-sm rounded-full font-normal   bg-black border-2 border-[#C000FF] text-white  hover:border-[#bf00ff00]  hover:bg-[#c000ff] transition-all duration-200 ease-out'
+                        <button className='flex justify-center items-center gap-2 py-2 px-3 text-sm rounded-full font-normal   bg-black border-2 border-[#6200ee] text-white  hover:border-[#bf00ff00]  hover:bg-[#6200ee] transition-all duration-200 ease-out'
                         onClick={onbuttonClick}
                         >
                             Download CV <AiOutlineDownload className='text-lg'/> 
@@ -94,13 +94,13 @@ const Hero = () => {
                         animate="visible"
                         transition={{ delay: 0.3, duration: 0.3 }}
                         className='socials flex justify-center items-center gap-3  '>
-                        <a href="https://github.com/Harsh-Nikam07" target='_blank' className='w-10 h-10 border-2 border-[#C000FF] flex justify-center items-center rounded-full hover:bg-[#C000FF]'>
+                        <a href="https://github.com/Harsh-Nikam07" target='_blank' className='w-10 h-10 border-2 border-[#6200ee] flex justify-center items-center rounded-full hover:bg-[#6200ee]'>
                             <TbBrandGithubFilled className="text-white" />
                         </a>
-                        <a href="https://www.linkedin.com/in/harshnikam/" target='_blank' className='w-10 h-10 border-2 border-[#C000FF] flex justify-center items-center rounded-full hover:bg-[#C000FF]'>
+                        <a href="https://www.linkedin.com/in/harshnikam/" target='_blank' className='w-10 h-10 border-2 border-[#6200ee] flex justify-center items-center rounded-full hover:bg-[#6200ee]'>
                             <FaLinkedinIn className="text-white w-4 h-4" />
                         </a>
-                        <a href="https://dribbble.com/Harsh_Nikam" target='_blank' className='w-10 h-10 border-2 border-[#C000FF] flex justify-center items-center rounded-full hover:bg-[#C000FF]'>
+                        <a href="https://dribbble.com/Harsh_Nikam" target='_blank' className='w-10 h-10 border-2 border-[#6200ee] flex justify-center items-center rounded-full hover:bg-[#6200ee]'>
                             <FaDribbble className="text-white w-4 h-4" />
                         </a>
                     </motion.div>

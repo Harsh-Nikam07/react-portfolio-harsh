@@ -79,7 +79,7 @@ const DevProjects = () => {
                 key={index}
                 href={project.href}
                 target='_blank'
-                className='w-full md:w-[34rem] h-fit flex justify-between items-center flex-row flex-wrap gap-5 bg-black p-5 border border-black text-white  hover:border hover:border-[#C000FF] rounded-3xl transition-all duration-1200 ease-out'
+                className='w-full md:w-[34rem] h-fit flex justify-between items-center flex-row flex-wrap gap-5 bg-black p-5 border border-black text-white  hover:border hover:border-[#6200ee] rounded-3xl transition-all duration-1200 ease-out'
                 initial="rest"
                 whileHover="hover"
                 animate="rest"
@@ -129,7 +129,7 @@ const DevProjects = () => {
                   {
                     project.tech.map((tech, techIndex) => {
                       return(
-                        <div key={techIndex} className='skill-heroS  flex justify-center items-center gap-2 py-1 px-3 text-base rounded-full font-normal text-white border-2 border-[#C000FF] hover:bg-[#C000FF]'>
+                        <div key={techIndex} className='skill-heroS  flex justify-center items-center gap-2 py-1 px-3 text-base rounded-full font-normal text-white border-2 border-[#6200ee] hover:bg-[#6200ee]'>
                           <span className='text-xs'>{tech}</span>
                         </div>
                       );

@@ -65,7 +65,7 @@ const Skills = () => {
               <motion.div
                 key={index}
                 variants={skillVariants}
-                className='skill-heroS flex justify-center items-center gap-2 py-1 px-3 text-base rounded-full font-normal text-white border-2 border-[#C000FF] hover:bg-[#C000FF] '
+                className='skill-heroS flex justify-center items-center gap-2 py-1 px-3 text-base rounded-full font-normal text-white border-2 border-[#6200ee] hover:bg-[#6200ee] '
               >
                 <span>{skill.name}</span>
               </motion.div>

@@ -14,7 +14,7 @@ const Exp = () => {
           </div>
 
           <div className='expParent w-full h-fit flex justify-center items-center flex-wrap flex-col gap-12'>
-            <div className='w-full md:w-3/5 p-3 flex justify-center items-center flex-col flex-grow gap-0 bg-black text-white border border-black hover:border hover:border-[#C000FF] rounded-lg transition-all duration-1200 ease-out'>
+            <div className='w-full md:w-3/5 p-3 flex justify-center items-center flex-col flex-grow gap-0 bg-black text-white border border-black hover:border hover:border-[#6200ee] rounded-lg transition-all duration-1200 ease-out'>
               <div className='w-full text-lg font-medium p-2'>
                 <span className=''>Front end Web Developer</span>
               </div>
@@ -24,7 +24,7 @@ const Exp = () => {
                   Zappkode Solutions
                 </div>
                 <div className='companyName'>
-                  Jan 2024 - Present
+                  Jan 2024 - Aug 2024
                 </div>
               </div>
 
@@ -38,31 +38,31 @@ const Exp = () => {
               </div>
 
               <div className='skills w-full p-2 flex justify-start items-center flex-row flex-wrap gap-2'>
-                <div className='flex justify-center items-center gap-2 py-1 px-3 text-xs rounded-full font-normal text-white border-2 border-[#C000FF] hover:bg-[#C000FF] '>
+                <div className='flex justify-center items-center gap-2 py-1 px-3 text-xs rounded-full font-normal text-white border-2 border-[#6200ee] hover:bg-[#6200ee] '>
                   <span> HTML </span>
                 </div>
-                <div className='flex justify-center items-center gap-2 py-1 px-3 text-xs rounded-full font-normal text-white border-2 border-[#C000FF] hover:bg-[#C000FF]'>
+                <div className='flex justify-center items-center gap-2 py-1 px-3 text-xs rounded-full font-normal text-white border-2 border-[#6200ee] hover:bg-[#6200ee]'>
                   <span> CSS </span>
                 </div>
-                <div className='flex justify-center items-center gap-2 py-1 px-3 text-xs rounded-full font-normal text-white border-2 border-[#C000FF] hover:bg-[#C000FF]'>
+                <div className='flex justify-center items-center gap-2 py-1 px-3 text-xs rounded-full font-normal text-white border-2 border-[#6200ee] hover:bg-[#6200ee]'>
                   <span> JavaScript </span>
                 </div>
-                <div className='flex justify-center items-center gap-2 py-1 px-3 text-xs rounded-full font-normal text-white border-2 border-[#C000FF] hover:bg-[#C000FF]'>
+                <div className='flex justify-center items-center gap-2 py-1 px-3 text-xs rounded-full font-normal text-white border-2 border-[#6200ee] hover:bg-[#6200ee]'>
                   <span> Spline </span>
                 </div>
-                <div className='flex justify-center items-center gap-2 py-1 px-3 text-xs rounded-full font-normal text-white border-2 border-[#C000FF] hover:bg-[#C000FF]'>
+                <div className='flex justify-center items-center gap-2 py-1 px-3 text-xs rounded-full font-normal text-white border-2 border-[#6200ee] hover:bg-[#6200ee]'>
                   <span> Figma </span>
                 </div>
-                <div className='flex justify-center items-center gap-2 py-1 px-3 text-xs rounded-full font-normal text-white border-2 border-[#C000FF] hover:bg-[#C000FF]'>
+                <div className='flex justify-center items-center gap-2 py-1 px-3 text-xs rounded-full font-normal text-white border-2 border-[#6200ee] hover:bg-[#6200ee]'>
                   <span> Flutter </span>
                 </div>
-                <div className='flex justify-center items-center gap-2 py-1 px-3 text-xs rounded-full font-normal text-white border-2 border-[#C000FF] hover:bg-[#C000FF]'>
+                <div className='flex justify-center items-center gap-2 py-1 px-3 text-xs rounded-full font-normal text-white border-2 border-[#6200ee] hover:bg-[#6200ee]'>
                   <span> Dart </span>
                 </div>
               </div>
             </div>
 
-            <div className='w-full md:w-3/5 p-3 flex justify-center items-center flex-col flex-grow gap-0 bg-black text-white border border-black hover:border hover:border-[#C000FF] rounded-lg transition-all duration-1200 ease-out'>
+            <div className='w-full md:w-3/5 p-3 flex justify-center items-center flex-col flex-grow gap-0 bg-black text-white border border-black hover:border hover:border-[#6200ee] rounded-lg transition-all duration-1200 ease-out'>
               <div className='w-full text-lg font-medium p-2'>
                 <span className=''>Front end developer Intern</span>
               </div>
@@ -85,19 +85,19 @@ const Exp = () => {
               </div>
 
               <div className='skills w-full p-2 flex justify-start items-center flex-row flex-wrap gap-2'>
-                <div className='flex justify-center items-center gap-2 py-1 px-3 text-xs rounded-full font-normal text-white border-2 border-[#C000FF] hover:bg-[#C000FF]'>
+                <div className='flex justify-center items-center gap-2 py-1 px-3 text-xs rounded-full font-normal text-white border-2 border-[#6200ee] hover:bg-[#6200ee]'>
                   <span> HTML </span>
                 </div>
-                <div className='flex justify-center items-center gap-2 py-1 px-3 text-xs rounded-full font-normal text-white border-2 border-[#C000FF] hover:bg-[#C000FF]'>
+                <div className='flex justify-center items-center gap-2 py-1 px-3 text-xs rounded-full font-normal text-white border-2 border-[#6200ee] hover:bg-[#6200ee]'>
                   <span> CSS </span>
                 </div>
-                <div className='flex justify-center items-center gap-2 py-1 px-3 text-xs rounded-full font-normal text-white border-2 border-[#C000FF] hover:bg-[#C000FF]'>
+                <div className='flex justify-center items-center gap-2 py-1 px-3 text-xs rounded-full font-normal text-white border-2 border-[#6200ee] hover:bg-[#6200ee]'>
                   <span> Bootstrap </span>
                 </div>
-                <div className='flex justify-center items-center gap-2 py-1 px-3 text-xs rounded-full font-normal text-white border-2 border-[#C000FF] hover:bg-[#C000FF]'>
+                <div className='flex justify-center items-center gap-2 py-1 px-3 text-xs rounded-full font-normal text-white border-2 border-[#6200ee] hover:bg-[#6200ee]'>
                   <span> Responsive Design  </span>
                 </div>
-                <div className='flex justify-center items-center gap-2 py-1 px-3 text-xs rounded-full font-normal text-white border-2 border-[#C000FF] hover:bg-[#C000FF]'>
+                <div className='flex justify-center items-center gap-2 py-1 px-3 text-xs rounded-full font-normal text-white border-2 border-[#6200ee] hover:bg-[#6200ee]'>
                   <span> Figma </span>
                 </div>
               </div>

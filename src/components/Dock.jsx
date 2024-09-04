@@ -13,7 +13,7 @@ const iconVariants = {
 };
 
 const Separator = () => (
-  <div className="w-px h-6 bg-[#C000FF]"></div>
+  <div className="w-px h-6 bg-[#6200ee]"></div>
 );
 
 const Dock = () => {
@@ -26,7 +26,7 @@ const Dock = () => {
   return (
     <div>
       <motion.div
-        className="h-[3rem] fixed right-6 top-10 transform -translate-x-1/2 bg-[#C000FF] shadow-lg rounded-full px-4 py-2 flex items-center justify-between space-x-2 z-50 md:hidden  "
+        className="h-[3rem] fixed right-6 top-10 transform -translate-x-1/2 bg-[#6200ee] shadow-lg rounded-full px-4 py-2 flex items-center justify-between space-x-2 z-50 md:hidden  "
         transition={{ duration: 0.3 }}
       >
         
@@ -169,7 +169,7 @@ const Dock = () => {
           animate="visible"
           transition={{ delay: 0.2, duration: 0.3 }}
         >
-          <Link to='Hero' spy={true} smooth={true} offset={-100} duration={500}><div className=' py-2 px-3 rounded-full flex items-center justify-centert text-white text-base hover:text-[#C000FF] transition-all duration-200 ease-out '><span className='text-base '>Home</span></div></Link>
+          <Link to='Hero' spy={true} smooth={true} offset={-100} duration={500}><div className=' py-2 px-3 rounded-full flex items-center justify-centert text-white text-base hover:text-[#6200ee] transition-all duration-200 ease-out '><span className='text-base '>Home</span></div></Link>
         </motion.div>
        
         <motion.div
@@ -179,7 +179,7 @@ const Dock = () => {
           animate="visible"
           transition={{ delay: 0.3, duration: 0.3 }}
         >
-          <Link to='About' spy={true} smooth={true} offset={0} duration={1000}><div className=' py-2 px-3 rounded-full flex items-center justify-centert text-white text-base hover:text-[#C000FF] transition-all duration-200 ease-out'><span className='text-base '>About</span></div></Link>
+          <Link to='About' spy={true} smooth={true} offset={0} duration={1000}><div className=' py-2 px-3 rounded-full flex items-center justify-centert text-white text-base hover:text-[#6200ee] transition-all duration-200 ease-out'><span className='text-base '>About</span></div></Link>
         </motion.div>
 
 
@@ -190,7 +190,7 @@ const Dock = () => {
           animate="visible"
           transition={{ delay: 0.4, duration: 0.3 }}
         >
-          <Link to='skills' spy={true} smooth={true} offset={0} duration={1000}><div className=' py-2 px-3 rounded-full flex items-center justify-centert text-white text-base hover:text-[#C000FF] transition-all duration-200 ease-out'><span className='text-base '>Skills</span></div></Link>
+          <Link to='skills' spy={true} smooth={true} offset={0} duration={1000}><div className=' py-2 px-3 rounded-full flex items-center justify-centert text-white text-base hover:text-[#6200ee] transition-all duration-200 ease-out'><span className='text-base '>Skills</span></div></Link>
         </motion.div>
        
 
@@ -202,7 +202,7 @@ const Dock = () => {
           animate="visible"
           transition={{ delay: 0.5, duration: 0.3 }}
         >
-          <Link to='Projects' spy={true} smooth={true} offset={-100} duration={1000}><div className='py-2 px-3 rounded-full flex items-center justify-centert text-white text-base hover:text-[#C000FF] transition-all duration-200 ease-out'><span className='text-base '>Projects</span></div></Link>
+          <Link to='Projects' spy={true} smooth={true} offset={-100} duration={1000}><div className='py-2 px-3 rounded-full flex items-center justify-centert text-white text-base hover:text-[#6200ee] transition-all duration-200 ease-out'><span className='text-base '>Projects</span></div></Link>
         </motion.div>
 
         <motion.div
@@ -212,7 +212,7 @@ const Dock = () => {
           animate="visible"
           transition={{ delay: 0.6, duration: 0.3 }}
         >
-          <Link to='Exp' spy={true} smooth={true} offset={-100} duration={1000} className='w-fit'><div className='w-full py-2 px-3 rounded-full flex items-center justify-centert text-white text-base hover:text-[#C000FF] transition-all duration-200 ease-out'>Work Experience</div></Link>
+          <Link to='Exp' spy={true} smooth={true} offset={-100} duration={1000} className='w-fit'><div className='w-full py-2 px-3 rounded-full flex items-center justify-centert text-white text-base hover:text-[#6200ee] transition-all duration-200 ease-out'>Work Experience</div></Link>
         </motion.div>
 
 
@@ -223,7 +223,7 @@ const Dock = () => {
           animate="visible"
           transition={{ delay: 0.6, duration: 0.3 }}
         >
-          <Link to='Exp' spy={true} smooth={true} offset={-100} duration={1000} className='w-fit'><div className='w-full py-2 px-3 rounded-full flex items-center justify-centert text-white text-base hover:text-[#C000FF] transition-all duration-200 ease-out'>Work Experience</div></Link>
+          <Link to='Exp' spy={true} smooth={true} offset={-100} duration={1000} className='w-fit'><div className='w-full py-2 px-3 rounded-full flex items-center justify-centert text-white text-base hover:text-[#6200ee] transition-all duration-200 ease-out'>Work Experience</div></Link>
         </motion.div> */}
 
 
@@ -237,7 +237,7 @@ const Dock = () => {
         >
           <a href="https://github.com/Harsh-Nikam07" target='_blank'>
             <div className="relative group">
-            <div className="w-10 h-10 border-2 border-[#C000FF] flex justify-center items-center rounded-full hover:bg-[#C000FF]">
+            <div className="w-10 h-10 border-2 border-[#6200ee] flex justify-center items-center rounded-full hover:bg-[#6200ee]">
               <TbBrandGithubFilled className="text-white" />
             </div>
             <div className="absolute top-16 w-fit mb-2 left-5 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 bg-black text-white text-xs rounded py-1 px-2 pointer-events-none transition-opacity duration-300">
@@ -259,7 +259,7 @@ const Dock = () => {
         >
           <a href="https://github.com/Harsh-Nikam07" target='_blank'>
             <div className="relative group">
-            <div className="w-8 h-8 border-2 border-[#C000FF] flex justify-center items-center rounded-full hover:bg-[#C000FF]">
+            <div className="w-8 h-8 border-2 border-[#6200ee] flex justify-center items-center rounded-full hover:bg-[#6200ee]">
               <FaLinkedinIn className="text-white w-4 h-4" />
             </div>
             <div className="absolute top-16 w-fit mb-2 left-5 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 bg-black text-white text-xs rounded py-1 px-2 pointer-events-none transition-opacity duration-300">
@@ -282,7 +282,7 @@ const Dock = () => {
         >
           <a href="https://github.com/Harsh-Nikam07" target='_blank'>
             <div className="relative group">
-            <div className="w-8 h-8 border-2 border-[#C000FF] flex justify-center items-center rounded-full hover:bg-[#C000FF]">
+            <div className="w-8 h-8 border-2 border-[#6200ee] flex justify-center items-center rounded-full hover:bg-[#6200ee]">
               <FaDribbble className="text-white w-4 h-4" />
             </div>
             <div className="absolute top-16 w-fit mb-2 left-5 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 bg-black text-white text-xs rounded py-1 px-2 pointer-events-none transition-opacity duration-300">

@@ -73,7 +73,7 @@ const Projects = () => {
             {['Development', 'UI / UX Design',].map((tab, index) => (
               <motion.button
                 key={tab}
-                className={`tabButton ${activeTab === tab ? 'active' : ''} px-4 py-2 rounded-lg transition-colors duration-300 ${activeTab === tab ? 'bg-[#C000FF] text-white' : 'bg-black border-2 border-[#C000FF] text-white hover:bg-[#C000FF]'}`}
+                className={`tabButton ${activeTab === tab ? 'active' : ''} px-4 py-2 rounded-lg transition-colors duration-300 ${activeTab === tab ? 'bg-[#6200ee] text-white' : 'bg-black border-2 border-[#6200ee] text-white hover:bg-[#6200ee]'}`}
                 onClick={() => setActiveTab(tab)}
                 
                 whileTap={{ scale: 0.9 }}
