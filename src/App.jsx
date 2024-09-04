@@ -9,6 +9,7 @@ import Skills from './components/Skills';
 import Lenis from 'lenis';
 import Spline from '@splinetool/react-spline';
 import './assets/css/main.css';
+import Footer from './components/Footer';
 
 const Separator = () => <div className="w-2 h-full bg-black"></div>;
 
@@ -26,57 +27,9 @@ const App = () => {
 
   requestAnimationFrame(raf);
 
-  // const cursorRef = useRef(null);
-  // const mousePosition = useRef({ x: 0, y: 0 });
-
-  // useEffect(() => {
-  //   const updateMousePosition = (e) => {
-  //     mousePosition.current = { x: e.clientX, y: e.clientY };
-  //   };
-
-  //   window.addEventListener('mousemove', updateMousePosition);
-
-  //   return () => {
-  //     window.removeEventListener('mousemove', updateMousePosition);
-  //   };
-  // }, []);
-
-  //   const [isMobile, setIsMobile] = useState(false);
-  //   useEffect(() => {
-  //   const handleResize = () => {
-  //     setIsMobile(window.innerWidth <= 768);
-  //   };
-
-  //   handleResize();
-  //   window.addEventListener('resize', handleResize);
-
-  //   return () => {
-  //     window.removeEventListener('resize', handleResize);
-  //   };
-  // }, [])
-
-  // useEffect(() => {
-  //   const moveCursor = () => {
-  //     if (cursorRef.current) {
-  //       cursorRef.current.style.transform = `translate3d(${mousePosition.current.x - 8}px, ${mousePosition.current.y - 8}px, 0)`;
-  //     }
-  //     requestAnimationFrame(moveCursor);
-  //   };
-
-  //   moveCursor();
-  // }, []);
 
   return (
-    <div className='relative overflow-x-hidden h-full w-full parent-bg text-black selection:bg-purple-500 selection:text-black'>
-      {/* <div className='fixed top-0 left-0 h-full w-full z-[-1]'>
-        {!isMobile && (<Spline scene="https://prod.spline.design/8H0x2wNUtaUYA9WO/scene.splinecode" />)}
-        <div className="relative h-full w-full bg-white"><div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_80%_50%_at_50%_0%,#000_70%,transparent_110%)]"></div></div>
-      </div> */}
-
-      {/* {!isMobile && (<div className='cursor' ref={cursorRef}></div>)} */}
-      {/* <div className='fixed top-0 left-0 h-full w-full z-[-1]'>
-        <div className="absolute top-0 z-[-2] h-screen w-screen bg-black bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(192,0,255,0.3),rgba(255,255,255,0))]"></div>
-      </div> */}
+    <div className='relative overflow-x-hidden h-full w-full parent-b text-black selection:bg-purple-500 selection:text-black'>
       <div className='bg-main fixed top-0 left-0 h-full w-full z-[-1]'>
         <div className='bg-sub absolute top-0 z-[-2] h-screen w-screen'></div>
       </div>
@@ -94,6 +47,7 @@ const App = () => {
       <Projects />
       <Separator />
       <Exp />
+      <Footer/>
     </div>
   );
 };

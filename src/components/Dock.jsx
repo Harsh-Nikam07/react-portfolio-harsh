@@ -26,16 +26,16 @@ const Dock = () => {
   return (
     <div>
       <motion.div
-        className="h-[3rem] fixed right-6 top-10 transform -translate-x-1/2 bg-[#6200ee] shadow-lg rounded-full px-4 py-2 flex items-center justify-between space-x-2 z-50 md:hidden  "
-        transition={{ duration: 0.3 }}
+        className="h-[3rem] w-[3rem] fixed right-6 top-10 transform -translate-x-1/2 bg-[#6200ee] rounded-full  flex items-center justify-center space-x-2 z-50 md:hidden  "
+        transition={{ delay: 0.5}}
+        variants={iconVariants}
+        initial="hidden"
+        animate="visible"
+        
       >
         
         <motion.div
-          className="text-xl text-black transform transition-transform duration-300 hover:scale-125  cursor-pointer"
-          variants={iconVariants}
-          initial="hidden"
-          animate="visible"
-          transition={{ delay: 0.1, duration: 0.3 }}
+          className="text-xl text-[#fff] transform transition-transform duration-300 hover:scale-125  cursor-pointer"
           onClick={toggleMenu}
         >
           <FaBars />
