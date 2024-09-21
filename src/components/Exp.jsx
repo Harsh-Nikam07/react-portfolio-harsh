@@ -4,7 +4,7 @@ const Exp = () => {
   return (
     <>
       <div className='h-full flex items-center justify-center mt-10 bg-transparent flex-wrap flex-col ' id='Exp'>
-        <div className='heroParent flex w-full h-fit justify-center items-center flex-col gap-10 p-5 flex-wrap rounded-lg'>
+        <div className='heroParent flex w-full h-fit justify-center items-center flex-col gap-10 p-5 flex-wrap rounded-3xl'>
           <div className='heroSubSection flex items-center w-full justify-between flex-col'>
             <div className='mainHeading flex justify-start items-start '>
               <span className='md:text-4xl text-2xl text-white font-semibold'>
@@ -14,7 +14,7 @@ const Exp = () => {
           </div>
 
           <div className='expParent w-full h-fit flex justify-center items-center flex-wrap flex-col gap-12'>
-            <div className='w-full md:w-3/5 p-3 flex justify-center items-center flex-col flex-grow gap-0 bg-black text-white border border-black hover:border hover:border-[#6200ee] rounded-lg transition-all duration-1200 ease-out'>
+            <div className='w-full md:w-3/5 p-3 flex justify-center items-center flex-col flex-grow gap-0 bg-black text-white border border-black hover:border hover:border-[#6200ee] rounded-3xl transition-all duration-1200 ease-out'>
               <div className='w-full text-lg font-medium p-2'>
                 <span className=''>Front end Web Developer</span>
               </div>
@@ -62,7 +62,7 @@ const Exp = () => {
               </div>
             </div>
 
-            <div className='w-full md:w-3/5 p-3 flex justify-center items-center flex-col flex-grow gap-0 bg-black text-white border border-black hover:border hover:border-[#6200ee] rounded-lg transition-all duration-1200 ease-out'>
+            <div className='w-full md:w-3/5 p-3 flex justify-center items-center flex-col flex-grow gap-0 bg-black text-white border border-black hover:border hover:border-[#6200ee] rounded-3xl transition-all duration-1200 ease-out'>
               <div className='w-full text-lg font-medium p-2'>
                 <span className=''>Front end developer Intern</span>
               </div>
